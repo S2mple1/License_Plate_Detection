@@ -1,0 +1,11 @@
+# download command/URL (optional)
+#download: bash data/scripts/get_.sh
+
+train: data/datasets/images/train
+val: data/datasets/images/val
+
+# number of classes
+nc: 2
+
+# class names
+names: [ 'single','double' ]
